@@ -9,6 +9,8 @@
   "author": "Lorenzo Vuur",
   "license": "MIT",
   "dependencies": {
-    "glob": "^7.0.3"
+    "glob": "^7.0.3",
+    "lodash": "^4.6.1",
+    "minimatch": "^3.0.0"
   }
 }
