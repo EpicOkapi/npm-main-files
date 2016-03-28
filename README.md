@@ -1,9 +1,24 @@
 npm-main-files
 =====
-Front-end users of npm instead of bower deserve some of that automagic resource exploring love too.
+Front-end users of npm instead of bower deserve some of that automagic resource exploring love too. Excuse my bad documenting, I don't feel like doing it atm.
 
 Look for resources in npm modules, like retrieving all css files to include in your automatic build process or something, pretty neado right.
 
+Instructions
+-----
+Some instructions because why not. It looks for all files in the files array and main file of a package.json, while also applying a glob.
+Here is a code example that finds all js files, you can figure it out:
+```
+var mainNpmFiles = require('main-npm-files');
+
+mainNpmFiles('**/*.js');
+```
+See, that was easy. Missed anything ? Check the source, it's a fairly small file :)
+
+Here is some options you can send along:
+nodeModules - Location of your modules, defaults to './node_modules'
+pkgJson - Location of your package.json, defaults to './package.json'
+onlySpecified - Shitty naming, I know. Basically decides if you only want to retrieve the files specified by the package.json or just all files from the package, ah yeah both still have the glob applied of course, defaults to: true
 
 License
 -----
