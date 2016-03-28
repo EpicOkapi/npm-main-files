@@ -4,7 +4,7 @@
   "description": "Searches for static files in npm packages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-node ./spec --verbose"
   },
   "author": "Lorenzo Vuur",
   "license": "MIT",
