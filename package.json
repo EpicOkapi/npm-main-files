@@ -1,0 +1,14 @@
+{
+  "name": "npm-main-files",
+  "version": "1.0.0",
+  "description": "Searches for static files in npm packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorenzo Vuur",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.0.3"
+  }
+}
