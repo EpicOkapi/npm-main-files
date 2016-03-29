@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jasmine-node ./spec --verbose"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/EpicOkapi/npm-main-files.git"
+  },
   "author": "Lorenzo Vuur",
   "license": "MIT",
   "dependencies": {
