@@ -9,7 +9,7 @@ Instructions
 Some instructions because why not. It looks for all files in the files array and main file of a package.json, while also applying a glob.
 Here is a code example that finds all js files, you can figure it out:
 ```
-var mainNpmFiles = require('main-npm-files');
+var mainNpmFiles = require('npm-main-files');
 
 mainNpmFiles('**/*.js');
 ```
